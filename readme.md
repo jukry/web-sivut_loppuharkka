@@ -4,4 +4,4 @@
 
 - Create layout according to teachers design, desktop width + 320px width
 
-- Grade 5/5
+- Received grade 5/5
