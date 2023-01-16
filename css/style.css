@@ -533,3 +533,9 @@ fieldset {
         grid-column-start: 2;
     }
 }
+@media screen and (min-width: 1000px) {
+    #dt-nutshell::before {
+        background-size: 100%;
+        background-position: 100% 40%;
+    }
+}
