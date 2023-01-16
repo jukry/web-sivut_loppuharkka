@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">
+    <title>Loppuharkka</title>
+</head>
+<body>
+    <section id="header-section">
+        <header>
+            <h1 id="header-h1"><span><u>I</u> know</span> HTML</h1>
+            <p>Also a little bit CSS</p>
+            <div id="menu-toggle">
+                <span class="line1 line"></span>
+                <span class="line2 line" id="line2"></span>
+                <span class="line3 line"></span>
+            </div>
+        </header>
+    </section>
+    <nav id="navi">
+        <ul id="nav-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#article-section">Design Thinking?</a></li>
+            <li><a href="#dt-nutshell">DT in nutshell</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#contact-form">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <section id="article-section">
+            <img src="img/crosshairs-solid.svg" alt="olen ikoni vain" id="crosshair">
+            <article id="main-article">
+                <h2>Design <span>thinking</span></h2>
+                <p>
+                    Why is design thinking important? Design thinking enables organizations to create lasting value for consumers. The process is useful in any complex system (not just design systems) because it:
+                </p>
+                <ul>
+                    <li>Aims to solve a concrete human need</li>
+                    <li>Tackles problems that are ambiguous or difficult to define</li>
+                    <li>Leads to more innovative solutions</li>
+                    <li>Makes organizations run faster and more efficiently</li>
+                </ul>
+                <p>Source: wework.com</p>
+            </article>
+        </section>
+        <section id="dt-values">
+            <h2>Design Thinking</h2>
+            <article id="value-boxes">
+                <div class="box1 box box-small">Technology feasibility</div>
+                <div class="box2 box box-small">Business viability</div>
+                <div class="box3 box box-small">People desirability</div>
+                <div class="box4 box box-small">Sustainability viability</div>
+                <div class="box5 box">Innovation</div>
+            </article>
+        </section>
+        <section class="iframe">
+            <iframe width="500" height="487" src="https://www.youtube.com/embed/jx5jmI0UlXU" title="Learn CSS Position In 9 Minutes" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+    </main>
+        <div class="fs-container">
+            <section id="dt-nutshell">
+                <h2>Design Thinking in nutshell</h2>
+                <article id="dt-nutshell-article">
+                    <h3>Points</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, doloribus.</p>
+                    <p>Aperiam repeliendus et reorehenderit cu;pa nihil
+                        gepe, ex debitis non quae
+                        Aperiam repetiendus et reprehendent cutpa nihd
+                        saece. ex debl'.ts non quae Aver teoeibendus
+                        et teorehenderit cuiøa nihil saepe. ex deetrs non
+                        quae Aperiam repeltendus et repreherderit cutpa
+                        nihil saepe, ex debitis non quae</p>
+                    <p id="emphasis">
+                    <em>Doing the right thing</em>
+                    <span>vs.</span>
+                    <em>Doing the thing right</em>
+                    </p>
+                </article>
+            </section>
+            <section id="about-us">
+                <h2>About us</h2>
+                <article id="contact-boxes">
+                    <div class="box1 box"><p>Mike Benson</p></div>
+                    <div class="box2 box"><p>Joe Forbidden</p></div>
+                    <div class="box3 box"><p>Maria Santos</p></div>
+                    <div class="box4 box"><p>Jorma Selkävuori</p></div>
+                </article>
+            </section>
+            <footer id="contact">
+                <div id="contact-form">
+                    <h2>Contact Us</h2>
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email">
+                        <label for="phone">Phone</label>
+                        <input type="text" id="phone" name="phone">
+                        <fieldset>
+                            <input type="checkbox" id="mail" name="mail">
+                            <label for="mail" id="checkbox-text">We will constantly bombard you with emails and it is ok to you?</label>
+                        </fieldset>
+                        <button type="submit" id="submit-button">></button>
+                    </form>
+                </div>
+
+                <div id="contact-info">
+                    <h2>Contact info</h2>
+                    <div id="contact-info-1">
+                        <p>
+                            jukry
+                            https://github.com/jukry
+                        </p>
+                        <div>
+                            <h2><span><u>I</u> know</span> HTML</h2>
+                            <p>Also a little bit CSS</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    <script src="js/loppuharkka.js"></script>
+</body>
+</html>
